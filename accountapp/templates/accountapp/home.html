@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+
+{% block content %}
+
+    <div style="border-radius: 1rem; margin: 2rem; text-align: center">
+        <h1 style="font-family: 'ONE-Mobile-POP', cursive;">
+            버스 시간표
+        </h1>
+        <br>
+        <img src="{% static 'img/bus.jpg' %}" alt="버스 시간표" width=auto height=auto/>
+    </div>
+    <br>
+    <div style="border-radius: 1rem; margin: 2rem; text-align: center">
+        <h1 style="font-family: 'ONE-Mobile-POP', cursive;">
+            교직원 식당 식단표
+        </h1>
+        <br>
+        <img src="{% static 'img/cafeteria_prof.jpg' %}" alt="교직원식당 식단" width=auto height=auto/>
+    </div>
+    <br>
+    <div style="border-radius: 1rem; margin: 2rem; text-align: center">
+        <h1 style="font-family: 'ONE-Mobile-POP', cursive;">
+            학생 식당 식단표
+        </h1>
+        <br>
+        <img src="{% static 'img/cafeteria_stud.jpg' %}" alt="학생식당 식단" width=auto height=auto/>
+    </div>
+
+{% endblock %}

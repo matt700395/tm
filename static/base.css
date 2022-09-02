@@ -1,0 +1,18 @@
+.first_logo {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.first_footer_button {
+    font-size: .9rem;
+}
+
+.first_footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.first_header {
+    text-align: center;
+    margin: 2rem 0;
+}
